@@ -1,5 +1,19 @@
-# SCP Foundation Fine-Tune (Llama 3)
+<div align="center">
 
+# 🔬 SCP Foundation Fine-Tune (Llama 3)
+
+**Teaching Llama-3-8B to write like the SCP Foundation.**
+
+A full domain-adaptation pipeline: scrape → clean → QLoRA fine-tune → GGUF export → run locally in Ollama.
+
+![Model](https://img.shields.io/badge/Model-Llama--3--8B--4bit-purple?logo=meta&logoColor=white)
+![Unsloth](https://img.shields.io/badge/Trainer-Unsloth-green)
+![QLoRA](https://img.shields.io/badge/Technique-QLoRA-orange)
+![Ollama](https://img.shields.io/badge/Inference-Ollama-white?logo=ollama)
+
+</div>
+
+---
 A Domain Adaptation project that fine-tunes **Llama-3-8B** to generate clinical, scientific containment reports in the style of the **SCP Foundation Wiki**.
 
 This project demonstrates a full GenAI pipeline: from data extraction and cleaning to fine-tuning with LoRA and exporting for local inference.
